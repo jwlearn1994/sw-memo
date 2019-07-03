@@ -85,7 +85,7 @@ class SW_starter {
 
 new SW_starter({
   filepath: 'sw.js',
-  scope: '/johnny_test/serviceworker/',
+  scope: '/repository/j-sw/',
   sync: [
     {
       tag: 'button_sync',
@@ -104,11 +104,11 @@ new SW_starter({
     open: true,
     options: {
       body: '歡迎來到PWA測試頁面',
-      icon: './sw/fb_icon.jpg', // 網站icon圖示
+      icon: './js/fb_icon.jpg', // 網站icon圖示
       dir: 'ltr', // 文字顯示方向
       lang: 'zh-Hant', // 語言代碼(繁中)
       vibrate: [100, 50, 200], // 裝置震動模式(震動100ms，暫停50ms，再振動200ms)
-      badge: './sw/fb_icon.jpg', // 狀態列圖示
+      badge: './js/fb_icon.jpg', // 狀態列圖示
       tag: 'confirm-note', // 通知的ID
       renotify: true, // 通知更新後是否要再通知一次
       actions: [ // 設定通知上的選項
